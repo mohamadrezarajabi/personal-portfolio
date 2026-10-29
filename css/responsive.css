@@ -91,3 +91,28 @@
     animation-iteration-count: 1 !important;
   }
 }
+
+@media (max-width: 480px) {
+  .hero-side {
+    padding: 24px 0 40px;
+  }
+
+  .code-card {
+    transform: none;
+  }
+
+  .code-body {
+    padding: 18px 12px;
+    font-size: var(--text-xs);
+  }
+
+  .ln {
+    width: 24px;
+  }
+
+  .hero-note {
+    right: 0;
+    bottom: 8px;
+    padding: 9px 12px;
+  }
+}

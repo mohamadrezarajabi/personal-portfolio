@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Vazirmatn:wght@100..900&display=swap");
+
 :root {
   /* Fonts */
   --font-en: "Inter", sans-serif;
@@ -75,20 +77,4 @@
   --z-dropdown: 100;
   --z-sticky: 200;
   --z-modal: 1000;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("../assets/fonts/en/Inter-Italic-VariableFont_opsz_wght.ttf");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Vazirmatn";
-  src: url("../assets/fonts/fa/Vazirmatn-VariableFont_wght.ttf");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
 }
