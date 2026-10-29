@@ -1,0 +1,15 @@
+
+[data-theme="dark"] {
+  --color-bg: #171a17;
+  --color-surface: #202520;
+  --color-surface-alt: #292f29;
+  --color-text: #edf0e9;
+  --color-text-muted: #a6afa4;
+  --color-primary: #8ab69a;
+  --color-primary-hover: #a4cbb1;
+  --color-accent: #d69a73;
+  --color-border: #363e36;
+
+  --shadow-sm: 0 2px 8px rgb(0 0 0 / 12%);
+  --shadow-md: 0 8px 24px rgb(0 0 0 / 20%);
+}
