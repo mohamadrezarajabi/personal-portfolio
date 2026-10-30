@@ -544,27 +544,195 @@
   color: var(--color-primary);
 }
 
-@media (max-width: 1000px) {
-  .skills-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.services-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.9fr 1.15fr 1.8fr;
+  gap: 12px;
+  align-items: stretch;
 }
 
-@media (max-width: 600px) {
-  .skills-section {
-    padding: 65px 0;
-  }
-
-  .skills-container {
-    width: min(100% - 32px, 1056px);
-  }
-
-  .skills-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  .skill-card {
-    padding: 16px;
-  }
+.service-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 15px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  transition:
+    border-color var(--transition),
+    background-color var(--transition),
+    transform var(--transition);
 }
+
+.service-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-primary);
+  background: var(--color-surface-alt);
+}
+
+.service-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-alt);
+  color: var(--color-primary);
+}
+
+.service-icon svg {
+  width: 19px;
+  height: 19px;
+}
+
+.service-number {
+  color: var(--color-text-muted);
+  font-family: var(--font-en);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+}
+
+.service-card-title {
+  margin: 0 0 13px;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  line-height: 1.5;
+}
+
+.service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: auto;
+}
+
+.service-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 29px;
+  padding: 5px 9px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface-alt);
+  color: var(--color-text-muted);
+  font-family: var(--font-en);
+  font-size: var(--text-xs);
+  line-height: 1.4;
+  white-space: nowrap;
+  transition:
+    border-color var(--transition),
+    color var(--transition);
+}
+
+.service-tag:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.experience-education-content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-12);
+}
+
+.experience-column,
+.education-column {
+  min-width: 0;
+}
+
+.column-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: var(--color-primary);
+  border: var(--border-width) solid var(--color-border);
+}
+
+.column-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  margin-left: 9px;
+  padding-left: var(--space-6);
+  border-left: var(--border-width) solid var(--color-border);
+}
+
+.timeline-item {
+  min-width: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 5px;
+  left: -29px;
+  width: 9px;
+  height: 9px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  box-shadow: 0 0 0 4px var(--color-bg);
+}
+
+.timeline-date {
+  display: inline-block;
+  margin-bottom: var(--space-2);
+  color: var(--color-primary);
+}
+
+.timeline-content h4 {
+  margin-bottom: var(--space-1);
+  color: var(--color-text);
+  line-height: var(--line-height-heading);
+}
+
+.timeline-subtitle {
+  display: block;
+  margin-bottom: var(--space-3);
+}
+
+.timeline-content p {
+  line-height: var(--line-height);
+}
+
+.timeline-tags span {
+  padding: 5px 10px;
+  color: var(--color-text-muted);
+  background: var(--color-surface-alt);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--text-xs);
+}
+
+.certificate-link {
+  margin-top: var(--space-3);
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.certificate-link:hover {
+  color: var(--color-primary-hover);
+}
+
+.certificate-link svg {
+  width: 14px;
+  height: 14px;
+}
+
