@@ -539,6 +539,33 @@
           </div>
         </section>
         <div class="line mb-6"></div>
+        <section class="Project-list mb-6">
+          <div
+            class="project-list_header flex justify-between items-center mb-4"
+          >
+            <h3 class="flex lineBefore items-center">Featured Projects</h3>
+            <a href="" class="flex gap-2 items-center"
+              ><span>View All Projects</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="CurrentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right preview-icon"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+          <ul class="projects-grid"></ul>
+        </section>
+
         <section class="skills-main flex gap-3 flex-col mb-6">
           <h3 class="flex lineBefore items-center mb-4">
             Skills & Technologies
@@ -597,7 +624,6 @@
 
                   <div class="skill-tags">
                     <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Django</span>
                   </div>
                 </article>
 
@@ -984,7 +1010,121 @@
             </div>
           </div>
         </section>
+
+        <section class="cta-section">
+          <!-- Background Shape -->
+          <svg
+            class="cta-shape"
+            viewBox="0 0 1000 360"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path
+              d="
+        M 38 5
+        H 445
+        C 470 5 480 20 480 45
+        V 115
+        C 480 140 495 155 520 155
+        H 960
+        C 985 155 995 170 995 195
+        V 325
+        C 995 345 980 355 955 355
+        H 40
+        C 15 355 5 340 5 315
+        V 45
+        C 5 20 15 5 38 5
+        Z
+      "
+            />
+          </svg>
+
+          <!-- Main Content -->
+          <div class="cta-content">
+            <span class="cta-eyebrow">
+              <span class="cta-dot"></span>
+              OPEN TO COLLABORATION
+            </span>
+
+            <h2>
+              Have an idea?
+              <span>Let's build it together.</span>
+            </h2>
+
+            <p>
+              Whether you have a project in mind or just an idea worth
+              exploring, I'd be glad to hear about it.
+            </p>
+
+            <div class="cta-actions">
+              <a href="#contact" class="cta-primary">
+                Start a Conversation
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 17 17 7M7 7h10v10" />
+                </svg>
+              </a>
+
+              <span class="cta-note"> No pressure. Just a conversation. </span>
+            </div>
+          </div>
+
+          <!-- Visual Content -->
+          <div class="cta-visual">
+            <div class="cta-visual-header">
+              <span class="cta-visual-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 4l-4 16" />
+                </svg>
+              </span>
+
+              <div>
+                <span class="cta-visual-title">From Idea to Reality</span>
+                <span class="cta-visual-subtitle"
+                  >A simple collaboration process</span
+                >
+              </div>
+            </div>
+
+            <div class="cta-steps">
+              <div class="cta-step">
+                <span class="cta-step-number">01</span>
+                <div>
+                  <strong>Share your idea</strong>
+                  <span>Tell me what you have in mind.</span>
+                </div>
+              </div>
+
+              <div class="cta-step">
+                <span class="cta-step-number">02</span>
+                <div>
+                  <strong>Plan the approach</strong>
+                  <span>Discuss the goals and requirements.</span>
+                </div>
+              </div>
+
+              <div class="cta-step">
+                <span class="cta-step-number">03</span>
+                <div>
+                  <strong>Build together</strong>
+                  <span>Turn the idea into a working project.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+      <footer class="footer">
+        <div class="footer-content">
+          <span class="footer-copy">
+            © 2026 Mohammad Reza Rajabi. All rights reserved.
+          </span>
+
+          <span class="footer-credit">
+            Designed & Developed by <strong>Me</strong>
+            <span class="footer-heart">♥</span>
+          </span>
+        </div>
+      </footer>
     </div>
 
     <script type="module" src="./js/main.js"></script>
