@@ -1125,8 +1125,205 @@
           </span>
         </div>
       </footer>
+      <section class="modal">
+        <div class="ai">
+          <button
+            class="ai-launcher"
+            id="ai-launcher"
+            aria-label="Open AI Assistant"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="CurrentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-bot-message-square preview-icon"
+            >
+              <path d="M12 6V2H8" />
+              <path d="M15 11v2" />
+              <path d="M2 12h2" />
+              <path d="M20 12h2" />
+              <path
+                d="M20 16a2 2 0 0 1-2 2H8.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 4 20.286V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z"
+              />
+              <path d="M9 11v2" />
+            </svg>
+          </button>
+          <div
+            class="ai-panel"
+            id="ai-panel"
+            aria-label="Portfolio AI Assistant"
+            hidden
+          >
+            <header class="ai-header">
+              <div class="ai-header-info">
+                <div class="ai-avatar">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="CurrentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-astroid preview-icon"
+                  >
+                    <path
+                      d="M12.983 21.186a1 1 0 0 1-1.966 0 10 10 0 0 0-8.203-8.203 1 1 0 0 1 0-1.966 10 10 0 0 0 8.203-8.203 1 1 0 0 1 1.966 0 10 10 0 0 0 8.203 8.203 1 1 0 0 1 0 1.966 10 10 0 0 0-8.203 8.203"
+                    />
+                  </svg>
+                </div>
+
+                <div class="items-center">
+                  <h3>Portfolio Assistant</h3>
+                  <span class="ai-status items-center">Online</span>
+                </div>
+              </div>
+
+              <div class="ai-header-actions">
+                <div class="ai-menu-wrapper">
+                  <button
+                    class="ai-icon-btn"
+                    id="ai-menu-btn"
+                    aria-label="Assistant menu"
+                    aria-expanded="false"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1" />
+                      <circle cx="12" cy="12" r="1" />
+                      <circle cx="19" cy="12" r="1" />
+                    </svg>
+                  </button>
+
+                  <div class="ai-menu" id="ai-menu" hidden>
+                    <button type="button" data-action="new">
+                      New conversation
+                    </button>
+
+                    <button type="button" data-action="clear">
+                      Clear chat
+                    </button>
+
+                    <button type="button" data-action="about">
+                      About this assistant
+                    </button>
+                  </div>
+                </div>
+
+                <button
+                  class="ai-icon-btn"
+                  id="ai-close-btn"
+                  aria-label="Close assistant"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m6 6 12 12M18 6 6 18" />
+                  </svg>
+                </button>
+              </div>
+            </header>
+
+            <div class="ai-chat" id="ai-chat" aria-live="polite">
+              <div class="ai-welcome" id="ai-welcome">
+                <div class="ai-welcome-avatar">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="CurrentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-astroid preview-icon"
+                  >
+                    <path
+                      d="M12.983 21.186a1 1 0 0 1-1.966 0 10 10 0 0 0-8.203-8.203 1 1 0 0 1 0-1.966 10 10 0 0 0 8.203-8.203 1 1 0 0 1 1.966 0 10 10 0 0 0 8.203 8.203 1 1 0 0 1 0 1.966 10 10 0 0 0-8.203 8.203"
+                    />
+                  </svg>
+                </div>
+
+                <h4>Hi! I'm Mohammad's Portfolio Assistant.</h4>
+
+                <p>
+                  Ask me about his projects, skills, experience or collaboration
+                  opportunities.
+                </p>
+
+                <div class="ai-suggestions mb-4">
+                  <button type="button" class="ai-suggestion">
+                    What technologies does Mohammad use?
+                  </button>
+
+                  <button type="button" class="ai-suggestion">
+                    Tell me about his projects
+                  </button>
+
+                  <button type="button" class="ai-suggestion">
+                    What is his educational background?
+                  </button>
+
+                  <button type="button" class="ai-suggestion">
+                    How can we collaborate?
+                  </button>
+                </div>
+              </div>
+
+              <div class="ai-messages" id="ai-messages"></div>
+            </div>
+
+            <form class="ai-input-area" id="ai-form">
+              <input
+                type="text"
+                id="ai-input"
+                placeholder="Type your question..."
+                maxlength="500"
+                autocomplete="off"
+                aria-label="Your question"
+              />
+
+              <button type="submit" id="ai-send-btn" aria-label="Send message">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </button>
+            </form>
+
+            <p class="ai-disclaimer">
+              This assistant only answers questions about this portfolio.
+            </p>
+          </div>
+
+          <!-- Clear Chat Confirmation -->
+          <div class="ai-confirm-overlay" id="ai-confirm" hidden>
+            <div
+              class="ai-confirm-box"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="ai-confirm-title"
+            >
+              <h3 id="ai-confirm-title">Clear conversation?</h3>
+
+              <p>All messages in this conversation will be removed.</p>
+
+              <div class="ai-confirm-actions">
+                <button type="button" id="ai-cancel-clear">Cancel</button>
+                <button type="button" id="ai-confirm-clear">Clear chat</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/ai-assistant.js"></script>
   </body>
 </html>

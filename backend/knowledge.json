@@ -1,0 +1,563 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2026-11-01",
+    "language_support": ["fa", "en"],
+    "purpose": "Professional portfolio knowledge base",
+    "owner": "Mohammad Reza Rajabi"
+  },
+
+  "identity": {
+    "full_name": "Mohammad Reza Rajabi",
+    "preferred_name": "Mohammad Reza",
+    "professional_title": "Junior Full-Stack Web Developer",
+    "professional_level": "Junior",
+    "location": {
+      "city": "Tehran",
+      "country": "Iran",
+      "timezone": "Asia/Tehran"
+    },
+    "age": {
+      "value": 18,
+      "last_verified": "2026-11-01",
+      "note": "Age should be updated when necessary."
+    },
+    "professional_summary": {
+      "en": "Mohammad Reza Rajabi is a self-taught junior full-stack web developer based in Tehran, Iran. He focuses on building practical web applications and improving his skills through independent projects, continuous learning, and hands-on problem-solving.",
+      "fa": "محمدرضا رجبی یک توسعه‌دهنده جونیور وب در مسیر فول‌استک و برنامه‌نویس خودآموخته ساکن تهران است. تمرکز او بر ساخت پروژه‌های کاربردی، یادگیری مستمر و توسعه مهارت‌های فنی از طریق تجربه عملی و حل مسئله است."
+    },
+    "github": "https://github.com/mohamadrezarajabi",
+    "email": "mohamadrezarajadi87@gmail.com",
+    "telegram": "https://t.me/Rezaalog"
+  },
+
+  "professional_profile": {
+    "career_direction": "Full-Stack Web Development",
+    "work_identity": [
+      "Self-taught developer",
+      "Project-oriented learner",
+      "Independent developer",
+      "Interested in collaborative development"
+    ],
+    "current_focus": [
+      "JavaScript",
+      "Frontend development",
+      "Backend development with Python",
+      "Building practical portfolio projects",
+      "Improving software development practices"
+    ],
+    "long_term_goal": "Become a strong full-stack developer capable of designing, developing, and maintaining complete web applications."
+  },
+
+  "education": {
+    "learning_path": "Self-taught",
+    "certificates": [
+      {
+        "name": "CS50's Introduction to Programming with Python",
+        "institution": "Harvard University",
+        "status": "Completed",
+        "verification_url": null
+      }
+    ],
+    "learning_resources": [
+      "Harvard CS50",
+      "Sabzlearn JavaScript Course",
+      "Official documentation",
+      "MDN Web Docs",
+      "JavaScript.info",
+      "Technical articles and tutorials"
+    ]
+  },
+
+  "skills": {
+    "programming_languages": [
+      {
+        "name": "Python",
+        "level": "Practical beginner-to-intermediate",
+        "description": "Used for independent projects, application logic, API communication, data processing, and basic backend development."
+      },
+      {
+        "name": "JavaScript",
+        "level": "Junior",
+        "description": "Used for DOM manipulation, event handling, arrays, functions, interactive interfaces, and frontend projects. Continuously learning more advanced concepts."
+      }
+    ],
+
+    "frontend": [
+      {
+        "name": "HTML5",
+        "level": "Practical",
+        "description": "Can independently structure web pages and build interfaces."
+      },
+      {
+        "name": "CSS3",
+        "level": "Practical",
+        "description": "Can implement layouts, styling, responsive interfaces, and reusable CSS structures."
+      },
+      {
+        "name": "DOM Manipulation",
+        "level": "Learning and practical use"
+      },
+      {
+        "name": "Responsive Web Design",
+        "level": "Practical experience"
+      }
+    ],
+
+    "backend": [
+      {
+        "name": "Python Backend Development",
+        "level": "Beginner",
+        "description": "Has practical Python programming experience but is still developing backend architecture and server-side development skills."
+      },
+      {
+        "name": "REST APIs",
+        "level": "Basic practical experience"
+      },
+      {
+        "name": "Flask",
+        "level": "Basic practical experience"
+      },
+      {
+        "name": "SQLite",
+        "level": "Basic practical experience"
+      },
+      {
+        "name": "JSON Data Storage",
+        "level": "Practical experience"
+      }
+    ],
+
+    "tools_and_workflow": [
+      "Git",
+      "GitHub",
+      "GitHub Desktop",
+      "Visual Studio Code",
+      "PyCharm",
+      "Figma",
+      "Chrome DevTools"
+    ],
+
+    "version_control": {
+      "tools": ["Git", "GitHub"],
+      "practical_concepts": [
+        "Branch",
+        "Commit",
+        "Merge",
+        "Pull",
+        "Pull Request"
+      ]
+    },
+
+    "design_tools": {
+      "figma": {
+        "level": "Basic familiarity",
+        "description": "Can work with Figma at a basic level but does not consider himself a professional UI/UX designer."
+      }
+    },
+
+    "additional_knowledge": [
+      "API integration",
+      "Basic technical analysis",
+      "Data processing with Python",
+      "Debugging",
+      "Unit testing with pytest",
+      "Prompt engineering"
+    ],
+
+    "currently_learning": [
+      "Advanced JavaScript",
+      "DOM and browser APIs",
+      "Asynchronous JavaScript",
+      "React",
+      "Backend architecture",
+      "Django",
+      "PostgreSQL"
+    ]
+  },
+
+  "experience": {
+    "professional_employment": {
+      "has_documented_professional_employment": false,
+      "description": "No documented professional employment experience is currently listed."
+    },
+
+    "client_work": {
+      "has_documented_paid_client_projects": false,
+      "description": "No verified paid client projects are currently listed."
+    },
+
+    "project_experience": {
+      "description": "Has developed several independent projects and participated in collaborative development.",
+      "independent_projects_ratio": "Approximately 90%, according to self-report.",
+      "collaboration": "Has experience collaborating with another developer, reviewing changes, fixing issues, and working with Git and Pull Requests."
+    }
+  },
+
+  "projects": [
+    {
+      "id": "crypto-analytical-tool",
+      "name": "Crypto Analytical Tool",
+      "category": "Python / Data Analysis / Financial Technology",
+      "status": "Public",
+      "ownership": "Collaborative project",
+      "repository_url": "https://github.com/mohamadrezarajabi/Crypto-Analytical-tool",
+      "demo_url": "https://youtu.be/xK-Kk2Et5HU",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Requests",
+        "CoinMarketCap API",
+        "KuCoin API",
+        "Pytest",
+        "CSV"
+      ],
+      "description": {
+        "en": "A Python-based cryptocurrency analysis tool that retrieves market data, calculates technical indicators, analyzes market trends and potential breakout scenarios, and stores analysis results in CSV files.",
+        "fa": "یک ابزار تحلیل بازار ارزهای دیجیتال با Python که داده‌های بازار را دریافت می‌کند، شاخص‌های تکنیکال را محاسبه می‌کند، وضعیت روند و سناریوهای احتمالی شکست سطوح را بررسی می‌کند و نتایج تحلیل را در فایل CSV ذخیره می‌کند."
+      },
+      "verified_features": [
+        "Market data retrieval using CoinMarketCap API",
+        "Historical candlestick data retrieval using KuCoin API",
+        "EMA calculation",
+        "ATR calculation",
+        "Market volatility classification",
+        "Trend analysis",
+        "Support and resistance analysis",
+        "Breakout and failed-breakout classification",
+        "Stop-loss and take-profit calculations",
+        "Risk/reward calculation",
+        "CSV result storage",
+        "Unit tests using pytest"
+      ],
+      "contribution": {
+        "status": "Partially verified",
+        "description": "The project was developed collaboratively. Exact individual contributions should not be claimed unless separately confirmed."
+      },
+      "limitations": [
+        "The tool provides analytical information, not guaranteed trading signals.",
+        "Its output should not be presented as financial advice."
+      ],
+      "recommendation_tags": [
+        "Python",
+        "API",
+        "Data Analysis",
+        "Technical Analysis",
+        "Automation"
+      ]
+    },
+
+    {
+      "id": "hotel-booking-project",
+      "name": "Integrated Banking & Hotel Reservation System",
+      "category": "Python / Application Development",
+      "status": "Public",
+      "ownership": "Independent project",
+      "repository_url": "https://github.com/mohamadrezarajabi/hotel_booking_project",
+      "demo_url": null,
+      "technologies": [
+        "Python",
+        "JSON",
+        "Object-Oriented Programming",
+        "Hashlib",
+        "Datetime"
+      ],
+      "description": {
+        "en": "A console-based Python application that combines basic banking operations with hotel reservation management. It includes account creation, transactions, room management, booking, cancellation, and an integrated internal payment process.",
+        "fa": "یک برنامه کنسولی با Python که امکانات مدیریت حساب بانکی و مدیریت رزرو هتل را در یک سیستم ترکیب می‌کند. این پروژه شامل ایجاد حساب، تراکنش‌های مالی، مدیریت اتاق‌ها، رزرو، لغو رزرو و فرایند پرداخت داخلی است."
+      },
+      "verified_features": [
+        "Bank account creation",
+        "Password hashing using SHA-256",
+        "Deposits and withdrawals",
+        "Peer-to-peer transfers",
+        "Transaction tracking",
+        "Guest and staff roles",
+        "Room management",
+        "Hotel room reservation",
+        "Date overlap checking",
+        "Reservation cancellation",
+        "Automatic refund calculation",
+        "JSON-based data persistence"
+      ],
+      "architecture": [
+        "Modular structure",
+        "Object-Oriented Programming",
+        "Separation of Concerns"
+      ],
+      "recommendation_tags": [
+        "Python",
+        "OOP",
+        "Application Logic",
+        "Data Management",
+        "Banking",
+        "Hotel Management"
+      ]
+    },
+
+    {
+      "id": "javascript-learning",
+      "name": "JavaScript Learning Repository",
+      "category": "JavaScript / Learning / Frontend",
+      "status": "Public",
+      "ownership": "Independent learning repository",
+      "repository_url": "https://github.com/mohamadrezarajabi/Javascript-learning",
+      "demo_url": null,
+      "technologies": ["JavaScript", "HTML5", "CSS3", "Git", "GitHub"],
+      "description": {
+        "en": "A learning repository documenting the developer's JavaScript journey through lessons, exercises, challenges, and practical mini-projects.",
+        "fa": "یک مخزن آموزشی برای مستندسازی مسیر یادگیری JavaScript که شامل درس‌ها، تمرین‌ها، چالش‌ها و مینی‌پروژه‌های کاربردی است."
+      },
+      "verified_content": [
+        "JavaScript fundamentals",
+        "Functions",
+        "Arrays",
+        "Objects",
+        "DOM manipulation",
+        "Event handling",
+        "Learning exercises",
+        "Mini-projects"
+      ],
+      "learning_status": "In progress",
+      "recommendation_tags": [
+        "JavaScript",
+        "Frontend",
+        "Learning Journey",
+        "DOM",
+        "Mini Projects"
+      ]
+    },
+
+    {
+      "id": "personal-portfolio",
+      "name": "Personal Portfolio Website",
+      "category": "Web Development / Frontend / Backend",
+      "status": "In progress",
+      "ownership": "Independent project",
+      "repository_url": "https://github.com/mohamadrezarajabi/personal-portfolio",
+      "demo_url": null,
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Flask",
+        "Gemini API"
+      ],
+      "description": {
+        "en": "A bilingual personal portfolio website designed to present the developer's background, skills, projects, and collaboration interests. It also includes a dedicated AI portfolio assistant intended to answer visitors' professional questions using a controlled knowledge base.",
+        "fa": "یک وب‌سایت رزومه و پورتفولیوی شخصی دوزبانه برای معرفی سوابق، مهارت‌ها، پروژه‌ها و زمینه‌های همکاری. این وب‌سایت همچنین شامل یک دستیار هوش مصنوعی اختصاصی است که با استفاده از پایگاه دانش کنترل‌شده به سؤالات حرفه‌ای بازدیدکنندگان پاسخ می‌دهد."
+      },
+      "verified_features": [
+        "Bilingual Persian and English experience",
+        "Dedicated AI portfolio assistant",
+        "Flask backend",
+        "Gemini API integration",
+        "Structured knowledge base"
+      ],
+      "recommendation_tags": [
+        "Portfolio",
+        "Frontend",
+        "Flask",
+        "AI Integration",
+        "API"
+      ]
+    },
+
+    {
+      "id": "tasktora",
+      "name": "Tasktora",
+      "category": "JavaScript / Frontend Application",
+      "status": "Needs verification",
+      "ownership": "Reported independent project",
+      "repository_url": null,
+      "demo_url": null,
+      "technologies": ["JavaScript"],
+      "description": {
+        "en": "A JavaScript-based to-do list project. Further details and repository information have not yet been verified.",
+        "fa": "یک پروژه فهرست کارها مبتنی بر JavaScript است. جزئیات بیشتر و لینک مخزن هنوز تأیید نشده‌اند."
+      },
+      "recommendation_tags": ["JavaScript", "DOM", "Frontend"]
+    },
+
+    {
+      "id": "javascript-quiz-app",
+      "name": "JavaScript Quiz App",
+      "category": "JavaScript / Frontend Application",
+      "status": "Needs verification",
+      "ownership": "Reported independent project",
+      "repository_url": null,
+      "demo_url": null,
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "description": {
+        "en": "A JavaScript quiz application designed to present questions, track answers, and display a final score. Exact implementation details and public links have not yet been verified.",
+        "fa": "یک برنامه آزمون JavaScript برای نمایش سؤال‌ها، ثبت پاسخ‌ها و نمایش نتیجه نهایی. جزئیات دقیق پیاده‌سازی و لینک عمومی هنوز تأیید نشده‌اند."
+      },
+      "recommendation_tags": ["JavaScript", "DOM", "Events", "Frontend"]
+    },
+
+    {
+      "id": "persian-notes-app",
+      "name": "Persian Notes App",
+      "category": "JavaScript / Frontend Application",
+      "status": "Needs verification",
+      "ownership": "Reported independent project",
+      "repository_url": null,
+      "demo_url": null,
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "description": {
+        "en": "A Persian-language note-taking application. Its exact features and public repository have not yet been verified.",
+        "fa": "یک برنامه یادداشت‌برداری فارسی است. قابلیت‌های دقیق و مخزن عمومی آن هنوز تأیید نشده‌اند."
+      },
+      "recommendation_tags": ["JavaScript", "DOM", "CRUD", "Frontend"]
+    },
+
+    {
+      "id": "amira-voice-assistant",
+      "name": "Amira Voice Assistant",
+      "category": "Python / Voice Assistant",
+      "status": "Incomplete",
+      "visibility": "Private",
+      "ownership": "Independent project",
+      "repository_url": null,
+      "demo_url": null,
+      "technologies": ["Python"],
+      "description": {
+        "en": "An unfinished voice assistant project that is currently private and not available for public review.",
+        "fa": "یک پروژه دستیار صوتی ناتمام است که در حال حاضر خصوصی بوده و برای بررسی عمومی در دسترس نیست."
+      },
+      "public_visibility_rule": "Do not provide a repository link or describe unverified features. Mention only if directly relevant and clearly state that the project is unfinished and private.",
+      "recommendation_tags": ["Python", "Voice Assistant", "Automation"]
+    }
+  ],
+
+  "work_preferences": {
+    "employment_types": [
+      "Part-time employment",
+      "Freelance projects",
+      "Team collaboration"
+    ],
+
+    "collaboration": {
+      "preferred_environment": "Collaborative teams with developers at similar or slightly higher technical levels.",
+      "description": {
+        "en": "Enjoys collaborative environments where developers can exchange knowledge, review each other's work, solve problems together, and improve their technical skills.",
+        "fa": "به محیط‌های تیمی علاقه دارد که در آن توسعه‌دهندگان بتوانند دانش خود را به اشتراک بگذارند، کد یکدیگر را بررسی کنند، مسائل را با همکاری حل کنند و مهارت‌های فنی خود را ارتقا دهند."
+      }
+    },
+
+    "work_style": [
+      "Can work independently",
+      "Enjoys teamwork",
+      "Values clear communication",
+      "Takes responsibility for assigned tasks",
+      "Welcomes constructive technical feedback",
+      "Prefers clearly defined project requirements",
+      "Believes scope changes should be discussed"
+    ],
+
+    "problem_solving": {
+      "approach": [
+        "Initially investigates the problem independently.",
+        "Uses documentation and reliable learning resources.",
+        "Uses AI tools to identify useful resources and understand difficult concepts.",
+        "Tries to solve problems independently with progressively more guidance.",
+        "Reviews why a problem occurred and why a solution works."
+      ],
+      "typical_initial_investigation_minutes": {
+        "minimum": 10,
+        "maximum": 20
+      }
+    },
+
+    "compensation": {
+      "preference": "Project-specific fair compensation",
+      "description": {
+        "en": "Compensation expectations depend on project scope, complexity, responsibilities, and workload. Prefers a fair agreement that reflects the actual work involved and is reasonable for both parties.",
+        "fa": "میزان دستمزد مورد انتظار به محدوده پروژه، پیچیدگی، مسئولیت‌ها و حجم کار بستگی دارد. ترجیح می‌دهد توافقی منصفانه داشته باشد که متناسب با کار واقعی و برای هر دو طرف منطقی باشد."
+      }
+    },
+
+    "availability": {
+      "timezone": "Asia/Tehran",
+      "unavailable_hours": {
+        "start": "00:00",
+        "end": "10:00"
+      },
+      "general_availability": "Generally available outside the unavailable hours, subject to project requirements and prior commitments.",
+      "start_date": {
+        "description": "Can start immediately when the required technologies and tasks are familiar. More complex unfamiliar work may require preparation before committing to a delivery schedule."
+      }
+    },
+
+    "deadline_management": {
+      "approach": "If a deadline is at risk, communicates the need for additional time and works toward completing the agreed requirements."
+    }
+  },
+
+  "communication": {
+    "languages": [
+      {
+        "name": "Persian",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "Developing",
+        "description": "Can read technical documentation and write work-related messages. Spoken communication is less comfortable and may require preparation."
+      }
+    ],
+    "response_language_rule": "Always respond in the language used by the visitor unless they explicitly request another language."
+  },
+
+  "recommendation_rules": {
+    "general": [
+      "Recommend projects based on the visitor's question and the verified project information.",
+      "Always prefer projects with public repositories when sharing project links.",
+      "Include a demo link only when a verified demo URL exists.",
+      "Do not recommend private projects as publicly accessible work.",
+      "Do not claim that every project is production-ready.",
+      "Explain why a project is relevant to the visitor's question."
+    ],
+
+    "project_matching": {
+      "javascript": ["javascript-learning", "tasktora", "javascript-quiz-app"],
+      "python": ["hotel-booking-project", "crypto-analytical-tool"],
+      "api_integration": ["crypto-analytical-tool", "personal-portfolio"],
+      "data_analysis": ["crypto-analytical-tool"],
+      "frontend": ["javascript-learning", "personal-portfolio"],
+      "backend": ["hotel-booking-project", "personal-portfolio"],
+      "portfolio": ["personal-portfolio"]
+    },
+
+    "selection_priority": [
+      "Relevance to the visitor's question",
+      "Availability of a public repository",
+      "Availability of a verified demo",
+      "Clarity of documented features",
+      "Project maturity and current status"
+    ]
+  },
+
+  "limitations_and_disclosure": {
+    "must_not_claim": [
+      "Senior developer status",
+      "Professional employment without evidence",
+      "Paid client experience without evidence",
+      "Professional UI/UX design expertise",
+      "Advanced backend expertise",
+      "Expert-level English speaking",
+      "Production readiness without verification",
+      "Features not documented or verified",
+      "Individual project contributions that have not been confirmed"
+    ],
+
+    "unknown_information_policy": "If a fact is not available in this knowledge base, clearly state that it is not currently documented or verified. Never guess.",
+
+    "private_information_policy": [
+      "Do not reveal private repository links.",
+      "Do not expose private project implementation details.",
+      "Do not reveal personal information unless it is relevant to a professional visitor's question."
+    ]
+  }
+}

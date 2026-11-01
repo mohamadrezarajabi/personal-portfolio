@@ -7,6 +7,7 @@
 @import url("./themes.css");
 @import url("./responsive.css");
 @import url("./normalize.css");
+@import url(./ai-assistant.css);
 
 .Logo_header {
   filter: drop-shadow(0px 0px 12px var(--color-border));
@@ -1211,3 +1212,4 @@
     padding: 20px 10px;
   }
 }
+
